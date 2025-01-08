@@ -277,7 +277,6 @@ static void __init exynos_dt_machine_init(void)
 
 	if (of_machine_is_compatible("samsung,rinato")) {
 		platform_device_register(&exynos_power_off);
-		platform_driver_register(&exynos_power_off_driver);
 	}
 }
 
